@@ -1,9 +1,12 @@
-int INDICE = 13, SOMA = 0, K = 0;
+int 
+IND = 13
+SOMA = 0
+K = 0
 
-Enquanto K < INDICE faça {
+while K < IND:
     K = K + 1;
     SOMA = SOMA + K;
-}
 
-Imprimir(SOMA);
-## a soma é 91
+
+print(SOMA);
+#91
