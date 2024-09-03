@@ -1,0 +1,14 @@
+input_string = input("Digite um texto para inverter: ")
+
+def inverter_string(s):
+    inverted_string = ""
+    for i in range(len(s) - 1, -1, -1):
+        inverted_string += s[i]
+    return inverted_string
+
+resultado = inverter_string(input_string)
+
+print(f"Texto invertido: {resultado}")
+
+#Digite um texto para inverter: Estagiário
+#Texto invertido: oiráigatsE
